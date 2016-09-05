@@ -4,7 +4,7 @@ Donate link: http://mohsinrasool.wordpress.com/2013/01/11/wordpress-shortcode-fo
 Tags: paypal, pay now, buy now, add to cart, shopping cart, donation, donate, pay button, cart button, paypal payment, paypal checkout, donate now
 Requires at least: 3.0.1
 Tested up to: 4.6
-Stable tag: 1.5
+Stable tag: 1.6
 Author: Mohsin Rasool
 License: GPLv2
 
@@ -19,7 +19,7 @@ This plugin adds "paypal_button" shortcode to display pay now, buy now, donation
 - **Customizable PayPal Payment Button**
 - **Customizable PayPal Checkout page**, change header logo and page color etc
 - **Output can be a PayPal form** with Default or Customizable PayPal button **or a URL to PayPal payment/cart page** that can be used on linked texts
-- **All type of PayPal button options** i.e. large, small, with and without Credit Card Logos 
+- **All type of PayPal button options** i.e. large, small, with and without Credit Card Logos
 - **Set Thank you page** after successful payment to return the user back to your website
 - **Set Handling and Shipping charges**
 - **Allow buyer to add a note to order**
@@ -32,7 +32,7 @@ Possible usage of the plugin are as follows
 
     Pay Now Button: [paypal_button type="paynow" amount="100"]
     Buy Now Button: [paypal_button type="buynow" name="WordPres Portfolio Theme" amount="100"]
-    Donation Button: [paypal_button type="donate" amount="100"] 
+    Donation Button: [paypal_button type="donate" amount="100"]
     Add to cart Button: [paypal_button type="cart" name="Computer Table" amount="100"]
     Payment Link: [paypal_button type="buynow" name="WordPres Portfolio Theme" amount="100" echo_link=1]
 
@@ -47,95 +47,95 @@ Set your PayPal E-Mail address and Checkout page customization in Settings->PayP
 
 = Attributes =
 
-    **type**: 
-    (string) (optional) Type of transaction. Allowed Values are 
+    **type**:
+    (string) (optional) Type of transaction. Allowed Values are
     Possible Values: 'paynow', 'buynow', 'cart' or 'donate'
 
-    **id**: 
+    **id**:
     (string) (optional) Product Number
     Possible Values: Any numeric product id
 
-    **email**: 
-    (string) (optional) Your PayPal E-Mail address. 
+    **email**:
+    (string) (optional) Your PayPal E-Mail address.
     Possible Values: A valid PayPal E-Mail address
 
-    **name**: 
+    **name**:
     (string) (optional) Name of the Product
     Possible Values: Any String
 
-    **amount**: 
+    **amount**:
     (numeric) (optional) Product price to be charged. Yes, you can left empty for user to input amount. This can be used for donations.
     Possible Values: Any numeric value
 
-    **quantity**: 
+    **quantity**:
     (numeric or string) (optional) Specfiy quantity as number or range or possible comma separated values. Leave empty to let user specify any quantity.
     Possible Values: "1" or "1,5,10" or "1-10"
 
-    **quantity_txt_postfix**: 
+    **quantity_txt_postfix**:
     (string) (optional) Post fix text to be shown in quantity dropdown.
     Possible Values: " items" or " products"
 
-    **field_sep**: 
+    **field_sep**:
     (string) (optional) HTML code to separate the generated visible HTML fields. Use "<br />" for new line.
     Possible Values: "&nbsp;" or "<br />"
 
-    **amount_prompt**: 
+    **amount_prompt**:
     (boolean) (optional) Setting to "1" will enable user to enter amount they would like to pay.
     Possible Values: 1 or 0
 
-    **echo_link**: 
+    **echo_link**:
     (boolean) (optional) Set to "1" for linked output
     Possible Values: 1 or 0
 
-    **open_new_window**: 
+    **open_new_window**:
     (boolean) (optional) Set to "1" to open payment page in a new window
     Possible Values: 1 or 0
 
-    **currency**: 
-    (string) (optional) Currency of the Transaction. 
+    **currency**:
+    (string) (optional) Currency of the Transaction.
     Possible Values: 'USD' or 'CAD' or any currency code
 
-    **tax_rate**: 
+    **tax_rate**:
     (numeric) (optional) Tax rate in percentage applied to the total price.
     Possible Values: 0.0001 to 100
 
-    **shipping_charges**: 
-    (numeric) (optional) Shipping charges for the product. 
+    **shipping_charges**:
+    (numeric) (optional) Shipping charges for the product.
     Possible Values: Any numeric value
 
-    **btn_url**: 
+    **btn_url**:
     (string) (optional) Set URL of your own customizable button. Global setting is used when left empty or default PayPal Button
     Possible Values: A URL to an image
 
-    **btn_size**: 
+    **btn_size**:
     (string) (optional) Set size of the button either 'large' or 'small'.
     Possible Values: 'large' or 'small'
 
-    **btn_display_cc**: 
+    **btn_display_cc**:
     (string) (optional) Display Credit Cards Logo under the button.
     Possible Values: 'yes' or 'no'
 
-    **add_note**: 
+    **add_note**:
     (string) (optional) Let buyer add a note to order.
     Possible Values: 'yes' or 'no'
 
-    **thankyou_page_url**: 
+    **thankyou_page_url**:
     (string) (optional) Buyer will be redirect to this page after successful payment.
     Possible Values: An absolute URL e.g. http://abc.com/thankyou
 
-    **checkout_logo_url**: 
+    **checkout_logo_url**:
     (string) (optional) URL to your Logo image.
     Possible Values: An absolute URL e.g. http://abc.com/logo.png
 
-    **checkout_header_border_color**: 
+    **checkout_header_border_color**:
     (string) (optional) Set border color of the checkout page header.
     Possible Values: A HTML Hexa-decimal code. e.g. FFFF00, 999999 etc
 
-    **checkout_header_bg_color**: 
+    **checkout_header_bg_color**:
     (string) (optional) Change background color of the checkout page header.
     Possible Values: A HTML Hexa-decimal code. e.g. FFFF00, 999999 etc
 
-    **checkout_bg_color**: 
+    **checkout_bg_color**:
     (string) (optional) Change background color of the entire checkout page.
     Possible Values: A HTML Hexa-decimal code. e.g. FFFF00, 999999 etc
 
@@ -209,7 +209,7 @@ You can use Logo URL field in the admin settings to place your logo on checkout 
 * Added support for customizing the PayPal button.
 
 = 1.2 =
-* Fixed quantity feature for donation 
+* Fixed quantity feature for donation
 * Added support for payment using URL. You can now use it in achor tag's "href" attribute also.
 
 
