@@ -3,8 +3,8 @@ Contributors: mohsinrasool
 Donate link: http://mohsinrasool.wordpress.com/2013/01/11/wordpress-shortcode-for-paypal-pay-buy-donation-and-cart-buttons/
 Tags: paypal, pay now, buy now, add to cart, shopping cart, donation, donate, pay button, cart button, paypal payment, paypal checkout, donate now
 Requires at least: 3.0.1
-Tested up to: 3.5.1
-Stable tag: 1.5
+Tested up to: 6.3.1
+Stable tag: 1.7
 Author: Mohsin Rasool
 License: GPLv2
 
@@ -170,6 +170,14 @@ You can use Logo URL field in the admin settings to place your logo on checkout 
 
 == Changelog ==
 
+= 1.7 =
+* Backword compatiblity 
+* Latest WordPres Tested
+
+= 1.6 =
+* Backword compatiblity 
+* Latest WordPres Tested
+
 = 1.5 =
 * Added filters
 * Added feature to open payment page in a new window
@@ -196,6 +204,14 @@ You can use Logo URL field in the admin settings to place your logo on checkout 
 * First Revision
 
 == Upgrade Notice ==
+
+= 1.7 =
+* Backword compatiblity 
+* Latest WordPres Tested
+
+= 1.6 =
+* Backword compatiblity 
+* Latest WordPres Tested
 
 = 1.5 =
 * Added filters
